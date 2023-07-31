@@ -1,0 +1,124 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 950px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sub-header-container {
+    display: flex;
+    align-items: center;
+    padding-left: 180px;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header {
+    font-size: 25px;
+    font-family: 'PT Sans Narrow','Helvitica', sans-serif;
+
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+.step {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 50px;
+    height: 90px;
+}
+
+.step-text {
+    font-size: 56px;
+    font-family: Raleway,sans-serif;
+    font-weight: 900;
+    color: rgb(72,0,124);
+    color: linear-gradient(90deg, rgba(72,0,124,1) 1%, rgba(48,36,156,1) 36%, rgba(43,43,162,1) 43%, rgba(32,58,176,1) 58%, rgba(20,76,192,1) 76%, rgba(3,100,214,1) 100%);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    width: 1000px;
+    height: auto;
+}
+
+.video-player {
+    width: 958px;
+    height: 539px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    background: rgb(72,0,124);
+    background: linear-gradient(90deg, rgba(72,0,124,1) 1%, rgba(48,36,156,1) 36%, rgba(43,43,162,1) 43%, rgba(32,58,176,1) 58%, rgba(20,76,192,1) 76%, rgba(3,100,214,1) 100%);
+    border-radius: 60px;
+    justify-content: center;
+    width: 700px;
+    height: 97px;
+    align-items: center;
+    margin-top: 50px;
+    -webkit-box-shadow: 1px 12px 24px -6px rgba(250,125,125,1);
+    -moz-box-shadow: 1px 12px 24px -6px rgba(250,125,125,1);
+    box-shadow: 1px 12px 24px -6px rgba(250,125,125,1);
+}
+
+.button-top {
+    color: aliceblue;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.button-bottom {
+    color: aliceblue;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.button-sub-container {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 500px;
+    height: auto;
+
+}
+
