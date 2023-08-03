@@ -136,6 +136,7 @@ video {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
 
+/*RESPONSIVENESS*/
 
 @media (min-width: 1319px) {
     .sub-header-container {
@@ -214,6 +215,151 @@ video {
     .video-player {
         width: 600px;
         height: auto;
+    }
+
+    body { 
+        height: auto;
+    }
+}
+
+@media (max-width:700px) {
+    .step {
+        width: 100%;
+    }
+
+    .step-text {
+        font-size: 40px;
+    }
+
+    .video-player {
+        width: 500px;
+        height: auto;
+    }
+
+    .button-container  {
+        width: 100%;
+    }
+
+    .button {
+        width: 400px;
+    }
+
+    .button-top {
+        font-size: 22px;
+    }
+
+    .button-bottom {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    body { 
+        height: auto;
+    }
+}
+
+@media (max-width:512px) {
+    .step {
+        width: 100%;
+    }
+
+    .step-text {
+        font-size: 40px;
+    }
+
+    .video-player {
+        width: 400px;
+        height: auto;
+    }
+
+    .button-container  {
+        width: 100%;
+    }
+
+    .button {
+        width: 400px;
+    }
+
+    .button-top {
+        font-size: 22px;
+    }
+
+    .button-bottom {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    body { 
+        height: auto;
+    }
+}
+
+@media (max-width: 421px) {
+    .step {
+        width: 100%;
+    }
+
+    .step-text {
+        font-size: 33px;
+    }
+
+    .video-player {
+        width: 370px;
+        height: auto;
+    }
+
+    .button-container  {
+        width: 100%;
+    }
+
+    .button {
+        width: 300px;
+    }
+
+    .button-top {
+        font-size: 17px;
+    }
+
+    .button-bottom {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    body { 
+        height: auto;
+    }
+}
+
+@media (max-width: 388px) {
+    .step {
+        width: 100%;
+    }
+
+    .step-text {
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .video-player {
+        width: 100%;
+        height: auto;
+    }
+
+    .button-container  {
+        width: 100%;
+    }
+
+    .button {
+        width: 250px;
+    }
+
+    .button-top {
+        font-size: 15px;
+    }
+
+    .button-bottom {
+        font-size: 8px;
+        font-weight: bold;
     }
 
     body { 
