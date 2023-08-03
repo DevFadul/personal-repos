@@ -55,6 +55,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .main {
@@ -89,20 +90,21 @@ body {
     -webkit-box-shadow: 1px 12px 24px -6px rgba(250,125,125,1);
     -moz-box-shadow: 1px 12px 24px -6px rgba(250,125,125,1);
     box-shadow: 1px 12px 24px -6px rgba(250,125,125,1);
+    gap: 5px;
 }
 
 .button-top {
     color: aliceblue;
     font-family: 'Montserrat',sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
 }
 
 .button-bottom {
     color: aliceblue;
     font-family: 'Montserrat',sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -119,6 +121,102 @@ a {
     padding-top: 20px;
     width: 500px;
     height: auto;
-
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 60px;
 }
 
+a:hover {
+    opacity: 0.85;
+}
+
+video {
+    border: solid rgb(72,0,124) 3px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+
+@media (min-width: 1319px) {
+    .sub-header-container {
+        padding-left: 180px;
+    }
+}
+
+@media (max-width: 1318px) {
+    .sub-header-container {
+        padding-left: 120px;
+    }
+}
+
+@media (max-width: 1219px) {
+    .sub-header-container {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 1033px) {
+    .header-container {
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .sub-header-container {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 977px) {
+    .step {
+        width: 100%;
+    }
+
+    .step-text {
+        font-size: 48px;
+    }
+
+    .video-player {
+        width: 800px;
+    }
+
+    body {
+        height: 1020px;
+    }
+}
+
+@media (max-width: 829px) {
+    .step {
+        width: 100%;
+    }
+
+    .step-text {
+        font-size: 48px;
+    }
+
+    .video-player {
+        width: 700px;
+        height: auto;
+    }
+
+    body {
+        height: 1020px;
+    }
+}
+
+@media (max-width: 742px) {
+    .step {
+        width: 100%;
+    }
+
+    .step-text {
+        font-size: 48px;
+    }
+
+    .video-player {
+        width: 600px;
+        height: auto;
+    }
+
+    body { 
+        height: auto;
+    }
+}
