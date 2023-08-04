@@ -156,6 +156,9 @@ video {
 }
 
 @media (max-width: 1219px) {
+    .step-text {
+        font-size: 50px;
+    }
     .sub-header-container {
         padding-left: 40px;
     }
@@ -177,7 +180,7 @@ video {
     }
 
     .step-text {
-        font-size: 48px;
+        font-size: 44px;
     }
 
     .video-player {
@@ -196,7 +199,7 @@ video {
     }
 
     .step-text {
-        font-size: 48px;
+        font-size: 36px;
     }
 
     .video-player {
@@ -216,7 +219,7 @@ video {
     }
 
     .step-text {
-        font-size: 48px;
+        font-size: 26px;
     }
 
     .video-player {
@@ -236,7 +239,7 @@ video {
     }
 
     .step-text {
-        font-size: 40px;
+        font-size: 24px;
     }
 
     .video-player {
@@ -273,7 +276,7 @@ video {
     }
 
     .step-text {
-        font-size: 40px;
+        font-size: 21px;
     }
 
     .video-player {
@@ -310,7 +313,7 @@ video {
     }
 
     .step-text {
-        font-size: 33px;
+        font-size: 20px;
     }
 
     .video-player {
